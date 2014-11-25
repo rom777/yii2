@@ -16,10 +16,8 @@ use yii\jui\DatePicker;
 
 echo DatePicker::widget([
     'language' => 'ru',
-    'name'  => 'country',
-    'clientOptions' => [
-        'dateFormat' => 'yy-mm-dd',
-    ],
+    'name' => 'country',
+    'dateFormat' => 'd/M/y',
 ]);
 ```
 
